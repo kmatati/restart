@@ -39,13 +39,9 @@ has_uppercase_char = check_is_uppercase.has_uppercase(password)
 if has_uppercase_char == False:
     print("However your password must contain uppercase characters!")
     exit()
-#attempt = attempt + 1
-
-# Get the length
-password_length = len(password)
 
 
-# Check the length
-if password_length < 12:  # TODO: Change from hardcoded value later.
-    print("Your password is too short")
+
+ # TODO: Change from hardcoded value later.
+    
 
